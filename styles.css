@@ -4,54 +4,54 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-.nav{background-color: pink;
-    color:black;
-    padding: 10px; 
 
+.navbar {
+    background-color: pink;
+    color: black;
+padding: 10px;
 }
-    
-.container {
-    display: flex;
+
+.navbar .container {
+display: flex;
     align-items: center;
 }
 
-.toggle-menu,
-.nav-menu {
+.navbar .toggle-menu,
+.navbar .nav-menu {
     display: inline-block;
     vertical-align: middle;
 }
 
-.toggle-menu {
+.navbar .toggle-menu {
     cursor: pointer;
-    margin-right: 10px; /* Add some spacing between the toggle icon and the menu */
+    margin-right: 10px;
 }
 
-.nav-menu {
+.navbar .nav-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-menu li {
+.navbar .nav-menu li {
     display: inline;
-    margin-right: 20px; /* Add some spacing between menu items */
+    margin-right: 20px; 
 }
 
-.nav-menu li:last-child {
-    margin-right: 0; /* Remove right margin for the last menu item */
+.navbar .nav-menu li:last-child {
+    margin-right: 0; 
 }
 
-.nav-menu li a {
+.navbar .nav-menu li a {
     color: #fff;
     text-decoration: none;
 }
 
 header {
-    background-color:pink;
-    color: black;
+    background-color: pink; 
+    color: black; 
     padding: 20px;
     text-align: center;
-
 }
 
 h1, h2 {
@@ -61,14 +61,12 @@ h1, h2 {
 .container {
     max-width: 960px;
     margin: 20px auto;
-    padding: 0 20px;
 }
 
-.heading{
+.heading {
     background-size: cover;
     text-align: center;
-    color:pink;
-    background-color: gray
+    color: pink; 
     padding: 100px 0;
     margin-bottom: 20px;
 }
@@ -80,7 +78,7 @@ h1, h2 {
 
 .heading p {
     font-size: 1.2em;
-    color: black;
+    color: black; 
 }
 
 .product-list {
@@ -100,16 +98,11 @@ h1, h2 {
 }
 
 .product img {
-
     width: 100%;
     border-radius: 5px;
     margin-bottom: 10px;
-    height:auto;
-        
+    height: auto;
 }
-
-
-
 
 footer {
     background-color: #333;
@@ -117,5 +110,4 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    
 }
